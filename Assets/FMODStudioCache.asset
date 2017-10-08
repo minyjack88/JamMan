@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 114977810836502682}
+  - {fileID: 114229143064038536}
+  EditorEvents: []
+  MasterBankRef: {fileID: 114229143064038536}
+  StringsBankRef: {fileID: 114977810836502682}
+  stringsBankWriteTime: 636427265415008141
+  cacheVersion: 2
+--- !u!114 &114229143064038536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\david\Documents\GitHub\JamMan\Assets\Resources\Fmod project\TestProject\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636427265414828018
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 9296
+  Exists: 1
+--- !u!114 &114977810836502682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Assets\Resources\Fmod project\TestProject\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636427265415008141
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 626
+  Exists: 1
